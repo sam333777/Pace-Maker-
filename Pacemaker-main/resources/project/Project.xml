@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+    </Categories>
+    <Files Location="Root">
+        <File Location=".gitattributes">
+            <Info/>
+        </File>
+        <File Location=".gitignore">
+            <Info/>
+        </File>
+        <File Location="System">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="Pacemaker.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="pacemaker_model.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="PacingModes">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <Info/>
+                <File Location="VVI.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AAI.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="VOO.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AOO.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+        </File>
+    </Files>
+    <Info Location="ProjectData">
+        <Info Name="3K04-Pacemaker"/>
+    </Info>
+    <EnvironmentCustomizations Location="Root">
+        <Command Location="environment.loadSimulink">
+            <Info Value="true"/>
+        </Command>
+    </EnvironmentCustomizations>
+    <ProjectData Location="Root"/>
+    <Extensions Location="Root"/>
+    <EntryPoints Location="Root"/>
+    <ProjectPath Location="Root">
+        <Reference Location="20578535-ffe9-4a4d-9637-68a91fc0776c">
+            <Info Ref="System" Type="Relative"/>
+        </Reference>
+        <Reference Location="315fe0f6-18cf-444b-b10c-4905b93ecdd6">
+            <Info Ref="System/PacingModes" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+</project>
